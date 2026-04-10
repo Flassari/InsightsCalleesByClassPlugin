@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Insights Callee By Class",
+	"Description": "Adds a 'Callees by Class' tab to Unreal Insights Timing Profiler that groups direct callees of the selected timer by class name, showing aggregated inclusive/exclusive time per class.",
+	"Category": "Performance",
+	"CreatedBy": "Ari Arnbjörnsson",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"EnabledByDefault": true,
+	"Installed": false,
+	"SupportedPrograms": [ "UnrealInsights" ],
+	"Modules": [
+		{
+			"Name": "InsightsCalleeByClass",
+			"Type": "EditorAndProgram",
+			"LoadingPhase": "Default",
+			"ProgramAllowList": [
+				"UnrealInsights"
+			]
+		}
+	]
+}
